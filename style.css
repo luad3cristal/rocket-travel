@@ -115,4 +115,70 @@ main {
   display: flex;
   margin: 0 auto;
   max-width: 65%;
+
+  padding-bottom: 50px;
+}
+
+/* bottom main */
+.bottom-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  background-color: var(--color-text);
+  opacity: 0.9;
+
+  border-radius: 15px;
+
+  width: 80%;
+  padding: 25px;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.locations,
+.hotel,
+.range {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: black;
+
+  padding-bottom: 10px;
+}
+
+select {
+  border: none;
+
+  height: 25px;
+
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.button-search {
+  padding-left: 20px;
+}
+
+main button {
+  width: 100px;
+  height: 110px;
+
+  border: none;
+  border-radius: 10px;
+  background: rgba(67, 67, 233, 0.8);
+}
+
+button img {
+  width: 30px;
+  height: 30px;
+}
+
+button:hover {
+  cursor: pointer;
 }
