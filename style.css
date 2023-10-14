@@ -66,7 +66,7 @@ header a:hover {
   border-bottom: 1px solid var(--color-button);
 }
 
-button {
+header button {
   width: 120px;
   height: 42px;
 
