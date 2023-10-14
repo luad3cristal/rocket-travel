@@ -19,6 +19,10 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+
+  max-width: 1080px;
+
+  margin: 0 auto;
 }
 
 .container {
@@ -79,4 +83,36 @@ button {
 
 button:hover {
   filter: drop-shadow(0px 2px 3px rgb(0, 0, 0, 0.5));
+}
+
+/* main */
+main {
+  padding-top: 200px;
+  max-width: 1000px;
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.top-main {
+  justify-content: center;
+  text-align: center;
+}
+
+.top-main h1 {
+  font-size: 32px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+
+.top-main p {
+  color: var(--color-subtitle);
+  font-size: 15px;
+  font-weight: 400;
+
+  display: flex;
+  margin: 0 auto;
+  max-width: 65%;
 }
